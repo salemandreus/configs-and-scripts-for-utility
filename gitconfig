@@ -1,0 +1,13 @@
+#add in ~/.config/git/config
+
+alias.f=fetch
+
+pull.ff=only                            # in case you accidentally type "git pull" - changes default to "pull --ff-only" 
+
+alias.safepull=pull --ff-only           # not merge, only ff. see: https://blog.sffc.xyz/post/185195398930/why-you-should-use-git-pull-ff-only-git-is-a
+
+alias.rb=rebase                         # rebase (is better but on non-public branches): see https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+
+alias.rebasedpull=pull --rebase         #https://www.atlassian.com/git/tutorials/syncing/git-pull
+alias.nomergepull=pull --no-commit
+
