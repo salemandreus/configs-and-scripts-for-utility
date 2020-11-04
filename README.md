@@ -1,2 +1,2 @@
 # safe-git-configs
-Configs for a safer git workflow.
+Configs/aliases for a safer git workflow.
