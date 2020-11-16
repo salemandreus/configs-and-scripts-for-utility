@@ -2,7 +2,7 @@
 
 alias.f=fetch
 
-pull.ff=only                            # in case you accidentally type "git pull" - changes default to "pull --ff-only" 
+pull.ff=only                            # in case you accidentally type "git pull" - changes default to "pull --ff-only" to avoid background merges 
 
 alias.safepull=pull --ff-only           # not merge, only ff. see: https://blog.sffc.xyz/post/185195398930/why-you-should-use-git-pull-ff-only-git-is-a
 
