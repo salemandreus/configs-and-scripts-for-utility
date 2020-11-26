@@ -2,7 +2,8 @@
 
 alias.f=fetch
 
-pull.ff=only                            # in case you accidentally type "git pull" - changes default to "pull --ff-only" to avoid background merges 
+pull.ff=only                            # in case you accidentally type "git pull" - changes default to "pull --ff-only" to avoid 
+                                        # unknowingly pulling something requiring a merge 
 
 alias.safepull=pull --ff-only           # not merge, only ff. see: https://blog.sffc.xyz/post/185195398930/why-you-should-use-git-pull-ff-only-git-is-a
 
@@ -11,3 +12,4 @@ alias.rb=rebase                         # rebase (is better but on non-public br
 alias.rebasedpull=pull --rebase         #https://www.atlassian.com/git/tutorials/syncing/git-pull
 alias.nomergepull=pull --no-commit
 
+alias.stashki=stash --keep-index        # Stash all but keep index in working directory - https://stackoverflow.com/questions/14759748/stashing-only-staged-changes-in-git-is-it-possible
