@@ -12,4 +12,4 @@ alias.rb=rebase                         # rebase (is better but on non-public br
 alias.rebasedpull=pull --rebase         #https://www.atlassian.com/git/tutorials/syncing/git-pull
 alias.nomergepull=pull --no-commit
 
-alias.stashki=stash --keep-index        # Stash all but keep index in working directory - https://stackoverflow.com/questions/14759748/stashing-only-staged-changes-in-git-is-it-possible
+alias.stashki=stash push --keep-index        # Stash all but keep index in working directory - https://git-scm.com/docs/git-stash/#_commands
